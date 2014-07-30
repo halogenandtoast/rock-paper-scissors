@@ -1,0 +1,41 @@
+---
+- name: rock
+  label: R
+  outcomes:
+    paper: loss
+    scissors: win
+    rock: tie
+    lizard: win
+    spock: loss
+- name: paper
+  label: P
+  outcomes:
+    scissors: loss
+    rock: win
+    paper: tie
+    lizard: loss
+    spock: win
+- name: scissors
+  label: S
+  outcomes:
+    rock: loss
+    paper: win
+    scissors: tie
+    lizard: win
+    spock: loss
+- name: lizard
+  label: L
+  outcomes:
+    lizard: tie
+    rock: loss
+    paper: win
+    spock: win
+    scissors: loss
+- name: spock
+  label: K
+  outcomes:
+    lizard: loss
+    rock: win
+    paper: loss
+    spock: tie
+    scissors: win

@@ -1,0 +1,19 @@
+---
+- name: rock
+  label: R
+  outcomes:
+    paper: loss
+    scissors: win
+    rock: tie
+- name: paper
+  label: P
+  outcomes:
+    scissors: loss
+    rock: win
+    paper: tie
+- name: scissors
+  label: S
+  outcomes:
+    rock: loss
+    paper: win
+    scissors: tie
